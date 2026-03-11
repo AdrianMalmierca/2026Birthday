@@ -259,17 +259,21 @@ function formHeartAnd27() {
     }
 
     
-    //27 RELLENO
 
     const matrix = [
-        "111111111   1111111",
-        "000000001        11",
-        "111111111      111",
-        "100000000     11",
-        "111111111    11"
+    "111111111    111111",
+    "000000001        11",
+    "000000001       11",
+    "000000010      11",
+    "000001100     11",
+    "000011000    11",
+    "000110000   11",
+    "001100000  11",
+    "011000000 11",
+    "111111111 11"
     ];
 
-    const pixel = shapeSize / 20;
+    const pixel = shapeSize / 24;
     const startX = centerX + shapeSize / 2;
     const startY = centerY - shapeSize / 3;
 
