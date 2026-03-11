@@ -204,7 +204,7 @@ function checkAnswer(index) {
         }
 
     } else {
-        alert("❌ Incorrecto... piensa mejor 😏");
+        alert("❌ Incorrect... think better 😏");
     }
 }
 
